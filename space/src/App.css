@@ -1,0 +1,55 @@
+@media (max-width:1017px) {
+        .hidden-on-tablet {
+          display: none;
+        }
+      }
+
+
+
+      @media (max-width:765px) {
+        .hidden-on-phone {
+          display: none;
+        }
+      }
+
+      @media (max-width: 1021px) {
+        .remove-spanontablet {
+          display: none;
+        }
+      }
+
+      .lineshrink{
+        min-width:450px;
+        transition: min-width 1.3s ease-in-out;
+      }
+      @media (max-width:1353px) {
+        .lineshrink {
+          
+          min-width: 100px;        }
+      }
+
+      @media (max-width: 633px) {
+        .hamburger-button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 20px;
+        }
+      }
+
+      .neon-button:hover {
+  box-shadow: 0 0 100px #ffffff ;
+
+
+}
+
+      @media (max-width: 761px) {
+        .logo-pos {
+          position:absolute;
+        }}
+
+        .flex-item {
+          flex: 1 0 auto; /* or min-height: 100%; */
+        }
+
+        
