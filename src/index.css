@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+ @font-face {
+font-family: 'BarlowCondensed';
+src: url('../font/BarlowCondensed-Regular.ttf') format('ttf');
+font-weight: 400;
+font-display: swap;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bellefair';
+    src: url('../font/Bellefair-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+      }
+    }
