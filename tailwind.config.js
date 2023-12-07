@@ -40,6 +40,10 @@ export default {
       'homelg': "url('./images/home/background-home-desktop.jpg')",
       'homemd': "url('./images/home/background-home-tablet.jpg')",
       'homesm':  "url('./images/home/background-home-mobile.jpg')",
+
+      'destlg': "url('./images/destination/background-destination-desktop.jpg')",
+      'destmd': "url('./images/destination/background-destination-tablet.jpg')",
+      'destsm':  "url('./images/destination/background-destination-mobile.jpg')",
       
     },
     extend: {
