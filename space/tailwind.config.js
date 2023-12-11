@@ -32,6 +32,7 @@ export default {
     colors: {
       darkcolor: '#0B0D17',
       lightdarkcolor:'#797979',
+      lightgrey:'#DCDCDC',
       blueish: '#D0D6f9',
       whitecolor: '#FFFFFF',
     },
@@ -40,6 +41,20 @@ export default {
       'homelg': "url('./images/home/background-home-desktop.jpg')",
       'homemd': "url('./images/home/background-home-tablet.jpg')",
       'homesm':  "url('./images/home/background-home-mobile.jpg')",
+
+      'destlg': "url('./images/destination/background-destination-desktop.jpg')",
+      'destmd': "url('./images/destination/background-destination-tablet.jpg')",
+      'destsm':  "url('./images/destination/background-destination-mobile.jpg')",
+
+      'crewlg': "url('./images/crew/background-crew-desktop.jpg')",
+      'crewmd': "url('./images/crew/background-crew-tablet.jpg')",
+      'crewsm':  "url('./images/crew/background-crew-mobile.jpg')",
+
+      
+      'techlg': "url('./images/technology/background-technology-desktop.jpg')",
+      'techmd': "url('./images/technology/background-technology-tablet.jpg')",
+      'techsm':  "url('./images/technology/background-technology-mobile.jpg')",
+      
       
     },
     extend: {

@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 export default function Home() {
     return (
+       
+   
         <div className=' w-full h-full bg-homesm bg-cover bg-center bg-no-repeat md:bg-homemd lg:bg-homelg'>
             <Navbar />
             <div className=' mt-20 p-10 w-full git statush-full flex flex-col lg:flex-row lg:justify-around lg:text-left lg:pb-40 text-whitecolor justify-center items-center text-center'>
@@ -17,6 +19,7 @@ export default function Home() {
                 <div className='font-Bellefair text-navtext3  flex justify-center items-center bg-whitecolor rounded-full w-10 h-10 p-20 text-darkcolor mt-10 neon-button transition ease-in-out duration-500'>EXPLORE</div>
             </div>
         </div>
+        
     )
 }
 
