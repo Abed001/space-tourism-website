@@ -1,3 +1,5 @@
+
+
 @media (max-width:1017px) {
         .hidden-on-tablet {
           display: none;
@@ -52,3 +54,12 @@
           flex: 1 0 auto; /* or min-height: 100%; */
         }
       
+        .active-tab {
+          color:white;
+          border-bottom: 2px solid white; /* Adjust the thickness and color as needed */
+        }
+
+        .active-tab:hover {
+          color:white;
+          border-bottom: 2px solid lightdarkcolor; /* Adjust the thickness and color as needed */
+        }
